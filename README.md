@@ -9,7 +9,7 @@ node index.js
 ```
 
 Because this application isn't deployed, I am attachign a walktrough video and some screenshots:
-https://watch.screencastify.com/v/biAFGWgteq4mC6PRtDko
+Video walkthrough: https://watch.screencastify.com/v/biAFGWgteq4mC6PRtDko
 
 <img width="560" alt="1" src="https://user-images.githubusercontent.com/91281668/144734082-285582b0-86a0-4269-a1ed-32d81cf687a6.png">
 
