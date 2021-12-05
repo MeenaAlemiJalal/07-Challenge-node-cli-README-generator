@@ -2,7 +2,7 @@
 
 With this app you can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
 
-The application will be invoked by using the following command:
+The application will be invoked by using the following command from inside the Develop folder:
 
 ```
 node index.js

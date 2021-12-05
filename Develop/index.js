@@ -41,7 +41,7 @@ var questions = [
   },
   {
     type: 'list',
-    name: 'License',
+    name: 'license',
     message: 'License?',
     choices: ['MIT', 'ISC', 'GNU GPLv3'],
     filter(val) {
