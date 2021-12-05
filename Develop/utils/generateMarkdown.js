@@ -28,9 +28,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license) {
-    return `
-    ## License
-    Licensed under the ${renderLicenseLink(license)}) license.`
+    return `Licensed under the ${renderLicenseLink(license)}) license.`
   } else return ''
 }
 
@@ -65,7 +63,8 @@ function generateMarkdown(data) {
   ${data.email}
   ${data.github}
 
-${renderLicenseSection(data.license)}
+  ## License
+  ${renderLicenseSection(data.license)}
   `;
 }
 const generate = {
