@@ -50,9 +50,7 @@ var questions = [
   },
 ];
 
-const answers = []
-
-// Create a function that get answers from the user
+// A function that get answers from the user
 async function runQuery() {
   return inquirer.prompt(questions)
     .then(function (answers) {
@@ -63,7 +61,7 @@ async function runQuery() {
     })
 }
 
-// TODO: Create a function to write README file
+// A function to write README file
 async function writeToFile() {
   const answers = await runQuery()
   const markdown = generate.generateMarkdown(answers)
@@ -76,7 +74,7 @@ async function writeToFile() {
   })
 }
 
-// TODO: Create a function to initialize app
+// initialize app
 function init() {
   writeToFile()
 }

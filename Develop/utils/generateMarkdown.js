@@ -19,6 +19,14 @@ function generateMarkdown(data) {
   return`
   # ${data.title}
 
+  ### Table of contents
+  - [Project description](#Description)
+  - [Usage](#Usage)
+  - [Contributing](#Contributing)
+  - [Installation](#Installation)
+  - [Questions](#Questions)
+  - [License](#License)
+
   ## Description
   ### ${data.description}
 
