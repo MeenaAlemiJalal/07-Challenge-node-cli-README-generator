@@ -43,7 +43,7 @@ var questions = [
     type: 'list',
     name: 'license',
     message: 'License?',
-    choices: ['MIT', 'ISC', 'GNU GPLv3'],
+    choices: ['MIT', 'ISC', 'GNUGPLv3'],
     filter(val) {
       return val.toLowerCase();
     },
@@ -69,7 +69,7 @@ async function writeToFile() {
     if (err) {
       console.log("Couldn'nt save content to file")
     } else {
-      console.log('Content saved properly')
+      console.log('Success: new README.md generated inside the current folder')
     }
   })
 }

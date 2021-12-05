@@ -1,5 +1,7 @@
 
-  # title here
+  # Sample README.md generated with node cli
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ### Table of contents
   - [Project description](#Description)
@@ -10,21 +12,22 @@
   - [License](#License)
 
   ## Description
-  ### discription here
+  ### This app generates professional README.md files
 
   ## Usage
-  no
+  Generate README.md files easily and professionally 
 
   ## Installation
-  install 
+  Clone the project and run node index.js from the Develop folder
 
   ## Contributing
-  no
+  Please clone and make mrs for improvments
 
   ## Questions
-  email
-  git
+  test@gmail.com
+  testGithub
 
-  ## License
-  Licensed under the mit license.
+
+    ## License
+    Licensed under the [MIT](https://choosealicense.com/licenses/mit/)) license.
   
