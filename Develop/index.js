@@ -67,7 +67,7 @@ async function runQuery() {
 async function writeToFile() {
   const answers = await runQuery()
   const markdown = generate.generateMarkdown(answers)
-  fs.appendFile('README.md', markdown, function (err) {
+  fs.writeFile('README.md', markdown, function (err) {
     if (err) {
       console.log("Couldn'nt save content to file")
     } else {

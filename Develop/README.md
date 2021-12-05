@@ -1,44 +1,22 @@
 
-    # my app
+  # My app
 
-    ## Description
-    ### this is a fun node project
+  ## Description
+  ### your app
 
-    ## Usage
-    generate readme files
+  ## Usage
+  nope
 
-    ## Installation
-    please run index js with node from terminal
+  ## Installation
+  no
 
-    ## Contributing
-    Please clone and make mrs
+  ## Contributing
+  dirt
 
-    ## Questions
-    meena.maj@gmail.com
-    meen
+  ## Questions
+  ajmal
+  meena
 
-    ## License
-    Licensed under the undefined license.
-  
-    <h1>My app</h1>
-
-
-    ## Description
-    ### this si a simple app
-
-    ## Usage
-    you can generate readmes with this
-
-    ## Installation
-    installatin is easy
-
-    ## Contributing
-    dont
-
-    ## Questions
-    email
-    githut
-
-    ## License
-    Licensed under the mit license.
+  ## License
+  Licensed under the mit license.
   
